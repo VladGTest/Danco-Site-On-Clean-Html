@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 34px;
+    color: $dark-grey-color;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    min-height: 104px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+    background-color: white;
+    &__list{
+        ul{
+            display: flex;
+            column-gap: 40px;
+            list-style-type: none;
+        }
+        display: flex;
+        column-gap: 40px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

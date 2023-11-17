@@ -1,16 +1,17 @@
 .about {
     min-height: 1047px;
-    position: relative;
     background: url('../img/backgrounds/about/about__back.png') center center / cover no-repeat;
     font-family: 'Montserrat', sans-serif;
-
-    &__triangles {
-        img {
-            width: 100%;
-        }
-
+    
+    &__triangles{
+        position: relative;
+        width: 100%;
+    }
+    &__triangle {
+        position: absolute;
         &-blue {
-
+            max-height: 880px;
+            width: 100%;
             &:nth-child(1) {
                 position: absolute;
                 left: 0;
@@ -25,6 +26,8 @@
         }
 
         &-white {
+           width: 100%;
+           max-height: 1000px;
             &:nth-child(3) {
                 position: absolute;
                 top: -500px;
@@ -39,9 +42,12 @@
         }
 
     }
-
+    &__wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
     &__danco {
-        position: absolute;
+        position: relative;
         display: flex;
         width: 493px;
         height: 240px;
@@ -67,15 +73,16 @@
             text-transform: uppercase;
         }
     }
-
+    
     &__circle {
         width: 479px;
         height: 479px;
         border-radius: 479px;
         border: 2px dashed var(--Light-Gray, #CCD2DD);
         background: var(--White, #FFF);
-        position: absolute;
-        right: 182px;
+        position: relative;
+        right: 0;
+
         top: 30px;
 
         &-badge {
@@ -169,14 +176,13 @@
     }
 
     &__two-triangle {
+        position: relative;
         img {
-            width: 100%;
-
             &:nth-child(1) {
                 position: absolute;
                 width: 425.375px;
                 height: 477px;
-                bottom: -125px;
+                bottom: 0;
                 right: 0;
                 z-index: 0;
             }
@@ -184,7 +190,7 @@
             &:nth-child(2) {
                 position: absolute;
                 bottom: 0;
-                
+                width: 1440px;                
             }
         }
 

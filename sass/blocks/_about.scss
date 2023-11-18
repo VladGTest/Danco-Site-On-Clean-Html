@@ -2,7 +2,7 @@
     min-height: 1047px;
     background: url('../img/backgrounds/about/about__back.png') center center / cover no-repeat;
     font-family: 'Montserrat', sans-serif;
-    
+    position: relative;    
     &__triangles{
         position: relative;
         width: 100%;
@@ -118,7 +118,7 @@
                 top: 25%;
                 transform: translateY(-25%);
 
-                right: -20px;
+                right: -40px;
             }
 
             &:nth-child(5) {
@@ -176,21 +176,22 @@
     }
 
     &__two-triangle {
-        position: relative;
+        position: absolute;
+        bottom: -569px;
+        //position: relative;
         img {
             &:nth-child(1) {
                 position: absolute;
                 width: 425.375px;
                 height: 477px;
-                bottom: 0;
+                bottom: -179px;
                 right: 0;
                 z-index: 0;
             }
-
             &:nth-child(2) {
                 position: absolute;
                 bottom: 0;
-                width: 1440px;                
+                width: 1430px;                
             }
         }
 

@@ -177,20 +177,22 @@
 
     &__two-triangle {
         position: absolute;
-        bottom: -569px;
+        bottom: -179px;
+        width: 100%;
         //position: relative;
         img {
             &:nth-child(1) {
                 position: absolute;
                 width: 425.375px;
                 height: 477px;
-                bottom: -179px;
+                bottom: 0;
                 right: 0;
-                z-index: 0;
+                //z-index: 1;
             }
             &:nth-child(2) {
                 position: absolute;
-                bottom: 0;
+                bottom: 179px;
+                max-height: 662px;
                 width: 1430px;                
             }
         }

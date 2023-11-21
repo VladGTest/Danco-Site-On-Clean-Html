@@ -16,6 +16,7 @@
         align-content: center;
         flex-wrap: wrap;
         align-items: center;
+        padding: 128px 0 90px 0;
         &-item{
             color: white;
             font-size: 20px;
@@ -50,7 +51,7 @@
     }
     &__apply{
         background: url('../img/backgrounds/roofing-services/item2.png') center center / cover no-repeat;
-        padding-top: 115px;
+        padding: 115px 0 90px 0;
         &-title{
             color: white;
         }

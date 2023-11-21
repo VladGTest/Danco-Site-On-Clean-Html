@@ -55,6 +55,9 @@
         &__item{
             width: 35%;
             margin-bottom: 40px;
+            img{
+                height: 200px;
+            }
         }
     }
     .footer{
@@ -119,15 +122,58 @@
             padding: 20px;
             display: grid;
             grid-template-columns: 100%;
+            justify-items: center;
+           
         }
         &__item{
-            width: 100%;
+            width: 50%;
             &-photo{
                 height: auto;
             }
         }
         
 
+    }
+    .projects{
+        &__item{
+            &-front{
+                width: 100%;
+            }
+            &-back{
+                width: 100%;
+            }
+        }
+        
+    }
+    .roofing-services{
+        &__wrapper{
+            flex-direction: column;
+
+        }
+        &__slider, &__apply{
+            width: 100%;
+        }
+    }
+    .footer{
+        min-height: 542px;
+        &__wrapper{
+            padding: 0;
+            flex-wrap: wrap;
+            align-content: flex-end;
+        }
+        &__list{
+            width: 80%;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+        &__rectangle{
+            top: 96px;
+            left: -302px;
+            &-items{
+                left: 24%;
+            }
+        }
+        
     }
 }
 

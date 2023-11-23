@@ -12,6 +12,7 @@
             flex-direction: column;
             margin-top: 86px;
             padding-left: 40px;
+            padding-top: 20px;
             left: -100%;
             gap: 40px;
             ul{
@@ -29,10 +30,14 @@
         }
     }
     .about{
+        &__danco{
+            padding: 0 10px;
+        }
         &__circle{
             right: 50px;
             top: 86px;
         }
+        
         &__two-triangle{
             img{
                 &:nth-child(1){
@@ -116,6 +121,19 @@
             }
     
         }
+        &__two-triangle{
+            img{
+                &:nth-child(1){
+                    width: 50%;
+                    height: auto;
+                }
+                &:nth-child(2){
+                    width: 100%;
+                }
+            }
+
+        }
+           
     }
     .roof-types{
         &__wrapper{
@@ -181,11 +199,205 @@
     .container{
         max-width: 100%;
     }
+    .careers{
+        .title{
+            &_fz36{
+                font-size: 28px;
+            }
+            
+        }
+    }
+    .about{
+        &__circle{
+            width: 430px;
+            height: 430px;
+            &-badge{
+                height: 80px;
+                    width: 80px;
+                svg{
+                    height: 80px;
+                    width: 80px;
+                }
+                
+                    &:nth-child(1) {
+                        left: -30px;
+                    }
+        
+                    &:nth-child(2) {
+                        left: 30px;
+                    }
+        
+                    &:nth-child(3) {
+                        right: 30px;
+                    }
+        
+                    &:nth-child(4) {
+                        right: -30px;
+                    }
+        
+                    &:nth-child(5) {
+                        top: -30px;
+                    }
+               
+            }
+            // &-descr{
+            //     &-subtitle{
+            //         font-size: 13px;
+            //     }
+            //     &-title{
+            //         font-size: 13px;
+            //     }
+            //     &-descr{
+            //         font-size: 13px;
+            //     }
+            // }
+        }
+       
+    }
+    .roof-types{
+        &__item{
+            width: 60%;
+        }
+    }
+    .footer{
+        padding: 0;
+        min-height: 750px;
+        &__wrapper{
+            
+            position: static;
+            
+        }
+        &__list{
+            padding-right: 20px;
+            width: 100%;
+            gap: 35px;
+            justify-content: center;
+        }
+        &__item{
+            align-items: flex-end;
+            ul{
+                align-items: flex-end;
+            }
+        }
+
+        &__rectangle{
+            position: relative;
+            top: 0;
+            left: -90px;
+        }
+    }
+
+
 }
 
 @media (max-width:576px) {
-
+    .title{
+        &_fz48{
+            font-size: 32px;
+        }
+    }
     .container{
         max-width: 100%;
     }
+    .header{
+        padding: 17px 13px;
+        svg{
+            width: 130px;
+            height: 70px;
+        }
+    }
+    .about{
+        &__triangle{
+            &-blue{
+                &:nth-child(1){
+                    bottom: 100px;
+                }
+                &:nth-child(2){
+                    bottom: 100px;
+                }
+            }
+        }
+        &__two-triangle{
+            img{
+                &:nth-child(1){
+                    width: 70%;
+                    height: auto;
+                }
+                &:nth-child(2){
+                    width: 100%;
+                }
+            }
+
+        }
+        &__circle{
+            top: 110px;
+            height: 550px;
+            &-badge{
+                height: 60px;
+                width: 60px;
+                svg{
+                    height: 60px;
+                    width: 60px;
+                    &:nth-child(3){
+                        height: 100px;
+                        width: 100px;
+                    }
+                }
+                &:nth-child(1) {
+                    left: 0;
+                    top: 11%;
+                }
+    
+                &:nth-child(2) {
+                    left: 17px;
+                }
+    
+                &:nth-child(3) {
+                    right: 17px;
+                }
+    
+                &:nth-child(4) {
+                    top: 11%;
+                    right: 0px;
+                }
+    
+                &:nth-child(5) {
+                    top: -30px;
+                }
+                
+            }
+        }
+    }
+    .projects{
+        &__item{
+            min-height: 600px;
+            &-front{
+                &-title{
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+    .roof-types{
+        &__item{
+            width: 100%;
+        }
+    }
+    .roofing-services{
+        &__apply{
+            padding: 115px 20px 90px 20px;
+            &-descr{
+                width: 100%;
+            }
+        }
+    }
+    .footer{
+        &__rectangle{
+            &-items{
+                left: 41%;
+            }
+        }
+    }
+    
+    
 }

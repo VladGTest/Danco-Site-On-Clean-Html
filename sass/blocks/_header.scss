@@ -1,5 +1,4 @@
 .hamburger{
-    
     position: absolute;
     top: 40px;
     right: 35px;
@@ -8,6 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+    display: none;
     cursor: pointer;
     span{
         transition: 0.6s all; 
@@ -17,7 +17,7 @@
         background-color: $danco-blue-color;
         border-radius: 16px
     }
-    display: none;
+    
     &.active{
       
       span{

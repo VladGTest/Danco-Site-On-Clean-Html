@@ -1,5 +1,4 @@
 .footer{
-    padding: 50px 124px 90px 89px;
     position: relative;
     z-index: 2;
     min-height: 436px;
@@ -7,13 +6,13 @@
     font-family: 'Montserrat',sans-serif;
     &__wrapper{
         margin-top: 50px;
-        padding: 0px 0px 11px 495px;
+        padding: 0 0 11px 495px;
         display: flex;
         justify-content: flex-end;
         //align-items: flex-start;
         flex-direction: column;
         gap: 50px;
-        z-index: 3;
+        z-index: 1;
         position: absolute;
         right: 0;
     }
@@ -54,9 +53,9 @@
             position: absolute;
             width: 231px;
             height: 170px;
-            top:50%;
+            top:47%;
             transform: translateY(-50%);
-            left: 15%;
+            left: 12.1%;
             display: flex;
             flex-direction: column;
             row-gap: 20px;
@@ -70,6 +69,7 @@
     }
     &__list{
         display: flex;
+        padding: 50px 94px 0px 0px;
     }
     &__copyright{
         color: $dark-grey-color;
@@ -80,6 +80,6 @@
         letter-spacing: 0.6px;
         text-transform: uppercase;
         opacity: 0.8;
-        padding-right: 90px;
+        padding-right: 180px;
     }
 }

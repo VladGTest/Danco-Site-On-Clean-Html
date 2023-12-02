@@ -16,7 +16,7 @@
         align-content: center;
         flex-wrap: wrap;
         align-items: center;
-        padding: 128px 0 90px 0;
+        padding: 128px 0 90px 27px;
         &-item{
             color: white;
             font-size: 20px;
@@ -51,9 +51,10 @@
     }
     &__apply{
         background: url('../img/backgrounds/roofing-services/item2.png') center center / cover no-repeat;
-        padding: 115px 0 90px 0;
+        padding: 135px 0 90px 26px;
         &-title{
             color: white;
+            margin-bottom: 10px;
         }
         &-descr{
             color: white;
@@ -61,6 +62,7 @@
             font-weight: 400;
             line-height: 26px; /* 144.444% */
             width: 394px;
+            margin-bottom: 10px;
         }
         &-link{
             color: white;
@@ -73,6 +75,7 @@
             display: flex;
             align-items: center;
             column-gap:10px;
+            flex-wrap: wrap;
         }
         &-item{
             display: flex;
@@ -81,7 +84,7 @@
             align-content: center;
             flex-wrap: wrap;
             align-items: flex-start;
-            row-gap: 10px;
+            
 
         }
     }

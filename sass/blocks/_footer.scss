@@ -6,10 +6,9 @@
     font-family: 'Montserrat',sans-serif;
     &__wrapper{
         margin-top: 50px;
-        padding: 0 0 11px 495px;
+        padding: 0 0 0 495px;
         display: flex;
         justify-content: flex-end;
-        //align-items: flex-start;
         flex-direction: column;
         gap: 50px;
         z-index: 1;
@@ -21,12 +20,16 @@
         width: 200px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
+        &-title{
+            margin-bottom: 10px;
+        }
         ul{
             list-style-type: none;
             display: flex;
             flex-direction: column;
-            row-gap:10px;
+            li{
+                margin-bottom: 10px;
+            }
             a{
                 color: $dark-grey-color;
                 font-family: 'Montserrat',sans-serif;
@@ -38,7 +41,7 @@
         }
     }
     &__rectangle{
-        z-index: 1;
+       
         position: absolute;
         top: -50px;
         left: -90px;

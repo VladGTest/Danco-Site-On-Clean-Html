@@ -39,7 +39,8 @@ $(document).ready(function(){
         arrows: false,
         variableWidth: true,
         slidesPerRow: 1,
-                rows: 1
+                rows: 1,
+        infinite: false
     });
 })
 

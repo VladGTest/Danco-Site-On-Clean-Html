@@ -1,0 +1,88 @@
+.footer{
+    position: relative;
+    z-index: 2;
+    min-height: 436px;
+    overflow: hidden;
+    font-family: 'Montserrat',sans-serif;
+    &__wrapper{
+        margin-top: 50px;
+        padding: 0 0 0 495px;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 50px;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+    }
+    &__item{
+        display: flex;
+        width: 200px;
+        flex-direction: column;
+        align-items: flex-start;
+        &-title{
+            margin-bottom: 10px;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            li{
+                margin-bottom: 10px;
+            }
+            a{
+                color: $dark-grey-color;
+                font-family: 'Montserrat',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+    &__rectangle{
+       
+        position: absolute;
+        top: -50px;
+        left: -90px;
+        //position: relative;
+        img{
+            position: absolute;
+            left: 0;
+            top: 8px;
+            position: relative;
+        }
+        &-items{
+            position: absolute;
+            width: 231px;
+            height: 170px;
+            top:47%;
+            transform: translateY(-50%);
+            left: 12.1%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            align-items:center;
+            &-socials{
+                display: flex;
+                column-gap:44px;
+            }
+        }
+        
+    }
+    &__list{
+        display: flex;
+        padding: 50px 94px 0px 0px;
+    }
+    &__copyright{
+        color: $dark-grey-color;
+        text-align: right;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+        opacity: 0.8;
+        padding-right: 165px;
+    }
+}

@@ -1,0 +1,169 @@
+.about {
+    min-height: 1047px;
+    background: url('../img/backgrounds/about/about__back.png') center center / cover no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    .container{
+        position: absolute;
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        z-index: 2;
+    }
+    &__triangles{
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        img{
+            position: absolute;
+            top: -655px;
+            width: 100%;
+            max-height: 951px;
+           
+        }
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__danco {
+        position: relative;
+        width: 493px;
+        height: 240px;
+        z-index: 1;
+        &-title{
+            margin-bottom: 20px;
+            line-height: 44px;
+        }
+        &-descr {
+            font-size: 18px;
+            color: $light-grey-color;
+            line-height: 26px;
+            margin-bottom: 20px;
+        }
+        &-ref {
+            display: flex;
+            align-items: center;
+            color: $danco-blue-color;
+            font-size: 18px;
+            font-weight: 800;
+            line-height: 26px;
+            column-gap: 10px;
+            text-transform: uppercase;
+        }
+    }
+    
+    &__circle {
+        width: 479px;
+        height: 479px;
+        border-radius: 479px;
+        border: 2px dashed var(--Light-Gray, #CCD2DD);
+        background: var(--White, #FFF);
+        position: relative;
+        right: 0;
+        top: 50px;
+        z-index: 1;
+        &-badge {
+            &:nth-child(1) {
+                position: absolute;
+                top: 30%;
+                transform: translateY(-25%);
+                left: -40px;
+            }
+
+            &:nth-child(2) {
+                position: absolute;
+                bottom: -2%;
+                left: 50px;
+            }
+
+            &:nth-child(3) {
+                position: absolute;
+                bottom: -2%;
+                right: 46px;
+            }
+
+            &:nth-child(4) {
+                position: absolute;
+                top: 30%;
+                transform: translateY(-25%);
+                right: -36px;
+            }
+
+            &:nth-child(5) {
+                position: absolute;
+                top: -54px;
+                left: 51%;
+                transform: translateX(-50%);
+            }
+        }
+
+        &-descr {
+            &-subtitle {
+                color: $extra-light-grey;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 20px;
+                /* 142.857% */
+                letter-spacing: 0.7px;
+                text-transform: uppercase;
+            }
+
+            &-title {
+                color: $light-grey-color;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 20px;
+                /* 100% */
+                letter-spacing: 1px;
+                margin-bottom: 26px;
+            }
+
+            position: absolute;
+            bottom: 56.3%;
+            left: 51%;
+            transform: translate(-50%, 50%);
+            &-descr {
+                display: flex;
+                width: 300px;
+                height: 146px;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 20px;
+                /* 142.857% */
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+
+    &__two-triangle {
+        position: absolute;
+        bottom: -179px;
+        width: 100%;
+        //position: relative;
+        img {
+            &:nth-child(1) {
+                position: absolute;
+                width: 425.375px;
+                height: 477px;
+                bottom: 0;
+                right: 0;
+                //z-index: 1;
+            }
+            &:nth-child(2) {
+                position: absolute;
+                bottom: 179px;
+                max-height: 662px;
+                width: 1430px;                
+            }
+        }
+
+    }
+
+}

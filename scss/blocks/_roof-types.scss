@@ -1,0 +1,53 @@
+    .roof-types{
+        min-height: 1000px;
+        font-family: 'Montserrat', sans-serif;
+        background: url('../img/backgrounds/roofing-types/background.png') center center / cover no-repeat;
+        
+        padding-top: 220px;
+        &__title{
+            margin-bottom: 40px;
+        }
+        &__wrapper{
+            display: flex;
+            justify-content: center;
+            column-gap: 40px;
+            flex-wrap: wrap;
+
+        }
+        &__item{
+            background-color: white;
+            width: 280px;
+            min-height: 410px;
+            border-radius: 10px;
+            box-shadow: 0px 20px 10px 0px rgba(42, 45, 52, 0.20);
+            margin-bottom: 40px;
+            overflow: hidden;
+            &-photo{
+                height: 196px;
+                img{
+                    width: 100%;
+                    min-height: 100%;
+                    object-fit: cover;
+                }
+            }
+            &-descr{
+                background-color: white;
+                padding: 30px;
+                padding-bottom: 0;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 26px; /* 130% */
+                letter-spacing: 1px;
+                color: $light-grey-color;
+                &-title, &-descr, &-link{
+                    margin-bottom: 20px;
+                }
+                a{
+                    display: flex;
+                    flex-direction: row-reverse;
+                }
+            }
+            
+        }
+    
+    }

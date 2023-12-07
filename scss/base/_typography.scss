@@ -1,5 +1,5 @@
-.title{
-    &_fz16{
+.text{
+    &-base{
         color: #2A2D34;
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
@@ -7,7 +7,7 @@
         line-height: normal;
         text-transform: uppercase;
     }
-    &_fz24{
+    &-2xl{
         color: var(--Dark-Gray, #2A2D34);
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
@@ -16,7 +16,7 @@
         letter-spacing: 1.2px;
         text-transform: uppercase;
     }
-    &_fz36{
+    &-4xl{
         font-family: 'Montserrat', sans-serif;
         font-size: 36px;
         font-weight: 800;
@@ -24,7 +24,7 @@
         letter-spacing: 1.8px;
         text-transform: uppercase;
     }
-    &_fz48{
+    &-5xl{
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-size: 48px;

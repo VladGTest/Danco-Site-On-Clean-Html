@@ -152,13 +152,11 @@
     .roof-types{
         &__wrapper{
             padding: 20px;
-            display: grid;
-            grid-template-columns: 100%;
             justify-items: center;
            
         }
         &__item{
-            width: 50%;
+            width: 40%;
             &-photo{
                 height: auto;
             }
@@ -189,6 +187,7 @@
     .footer{
         min-height: 542px;
         &__wrapper{
+            margin-top: 20px;
             padding: 0;
             flex-wrap: wrap;
             align-content: flex-end;
@@ -216,12 +215,9 @@
     .container{
         max-width: 100%;
     }
-    .careers{
-        .title{
-            &_fz36{
-                font-size: 28px;
-            }
-            
+    .text{
+        &-4xl{
+            font-size: 28px;
         }
     }
     .about{
@@ -278,9 +274,10 @@
         }
        
     }
+   
     .roof-types{
         &__item{
-            width: 60%;
+            width: 46%;
         }
     }
     .footer{
@@ -306,13 +303,17 @@
 }
 
 @media (max-width:576px) {
-    .title{
-        &_fz48{
-            font-size: 32px;
-        }
-    }
+
     .container{
         max-width: 100%;
+    }
+    .text{
+        &-4xl{
+            font-size: 24px;
+        }
+        &-5xl{
+            font-size: 32px;
+        }
     }
     .header{
         padding: 17px 13px;
@@ -353,6 +354,11 @@
                 }
             }
 
+        }
+        &__danco{
+            &-descr, &-ref{
+                font-size: 16px;
+            }
         }
         &__circle{
             top: 170px;

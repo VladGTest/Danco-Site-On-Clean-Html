@@ -1,0 +1,47 @@
+.quote {
+    min-height: 642px;
+    background: url('../img/backgrounds/quote/quote_background.png') center center / cover no-repeat;
+    padding-top: 200px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__subtitle {
+        color: var(--Medium-Gray, #5D636F);
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__main-quote {
+        color: var(--Dark-Gray, #2A2D34);
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 46px;
+        width: 712px;
+        margin-bottom: 10px;
+        /* 127.778% */
+    }
+
+    &__author {
+
+        color: var(--Medium-Gray, #5D636F);
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+    }
+}

@@ -1,0 +1,60 @@
+.hero{
+    margin-top: 100px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        column-gap:62px;
+    }
+    &__descr{
+        margin-top: 100px;
+        margin-left: 105px;
+        width: 565px;
+        min-height: 218px;
+        &-title{
+            margin-bottom: 40px;
+        }
+        &-descr{
+            color: var(--Dark-Gray, #2A2D34);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            margin-bottom: 35px;
+        }
+        &-stats{
+            display: flex;
+            column-gap: 48px;
+            flex-wrap: wrap;
+            &-percents, &-earnings{	
+                width: 165px;
+	            -webkit-text-fill-color: white;
+	            -webkit-text-stroke: 2px #264584;
+                font-family: 'Montserrat',  sans-serif;
+                font-size: 80px;
+                font-weight: 800;
+                font-style: normal;
+                line-height: normal;
+                text-transform: uppercase;
+                span{
+                    -webkit-text-fill-color: white;
+                    -webkit-text-stroke: 2px #264584;
+                    font-family: 'Montserrat',sans-serif;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                    text-transform: uppercase;
+                }
+            }
+            &-title{
+                color: $danco-blue-color;
+            }
+        }
+    }
+    &__photo{
+        img{
+            width: 100%;
+        }
+    }
+}

@@ -7,6 +7,7 @@ const btnCall = document.querySelector('.careers__call-btn');
 const svgFromBtnCall = document.querySelector('.headerHeart');
 
 
+
 hamburger.addEventListener('click', () => {
     headerMenu.classList.toggle('active');
     hamburger.classList.toggle('active');
@@ -47,5 +48,4 @@ $(document).ready(function(){
 btnCall.addEventListener('mouseenter', () => {
     svgFromBtnCall.style.fill = "white";
 });
-
 

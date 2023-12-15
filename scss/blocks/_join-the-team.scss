@@ -1,0 +1,41 @@
+.join-the-team {
+    min-height: 500px;
+    background: url('../img/backgrounds/join-the-team/join-background.png') center center / cover no-repeat;
+
+    .container {
+        padding-top: 179px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__title {
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    &__descr {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        /* 144.444% */
+        width: 394px;
+        margin-bottom: 10px;
+    }
+
+    &__link {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 26px;
+        /* 144.444% */
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+}

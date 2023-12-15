@@ -1,0 +1,47 @@
+.sales{
+    background-color: $danco-blue-color;
+    padding: 52px 58px 32px 105px;
+    min-height: 200px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contact{
+        color: var(--White, #FFF);
+        font-family: 'Montserrat',sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120.681%; /* 28.963px */
+        width: 1034px;
+        height: 116px;
+        span{
+            color: var(--White, #FFF);
+            font-family: 'Montserrat',sans-serif;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 141.57%;
+            text-transform: uppercase;
+            
+        }
+    }
+    &__learn-more{
+        color: var(--White, #FFF);
+        font-family: 'Montserrat',sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 26px; /* 144.444% */
+        text-transform: uppercase;
+        display: flex;
+        align-items:center;
+        padding-bottom: 27px;
+        a{
+            display: flex;
+            align-items:center;
+            column-gap:11px;
+            color: white;
+        }
+    }
+}

@@ -5,7 +5,10 @@
         display: flex;
         column-gap: 40px;
         margin-bottom: 50px;
-
+        &-author{
+            position: absolute;
+            bottom: 0;
+        }
         &-title {
             width: 377px;
             padding-top: 9px;
@@ -36,7 +39,6 @@
         height: 425px;
         position: relative;
         overflow: hidden;
-        
         img {
             width: 100%;
             height: 100%;
@@ -46,9 +48,9 @@
 
         &-descr {
             position: absolute;
-            bottom: -100px;
-            left: 0;
+            bottom: 0;
             transition: 0.6s all;
+            width: 100%;
             &-title {
                 color: var(--White, #FFF);
                 font-family: 'Montserrat', sans-serif;
@@ -71,6 +73,7 @@
             }
 
             &-descr{
+                position: absolute;
                 background: url('../img/backgrounds/team/item_background.png') center center / cover no-repeat;
                 color: var(--White, #FFF);
                 font-family: 'Montserrat',sans-serif;
@@ -79,12 +82,14 @@
                 font-weight: 500;
                 line-height: normal;
                 padding: 16px 29px 38px 30px;
-                width: 100%;
                 transition: 0.6s all;
+                &.active{
+                    position: relative;
+                    transition: 0.6s all;
+
+                }
             }
-            &.active{
-                bottom: 0;
-            }
+            
 
         }
 

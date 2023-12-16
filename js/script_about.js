@@ -1,7 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
 const headerMenu = document.querySelector('.header__list');
 const teamItems = document.querySelectorAll('.team__item');
-const teamItemsDescr = document.querySelectorAll('.team__item-descr');
+const teamItemsDescr = document.querySelectorAll('.team__item-descr-descr');
 
 hamburger.addEventListener('click', () => {
     headerMenu.classList.toggle('active');
@@ -17,7 +17,6 @@ hamburger.addEventListener('click', () => {
 for(let i = 0; i < teamItems.length;i++){
     teamItems[i].addEventListener('mouseover',()=>{
         teamItemsDescr[i].classList.add('active');
-        console.log(i);
     })
 }
 

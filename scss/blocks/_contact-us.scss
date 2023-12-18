@@ -1,0 +1,119 @@
+.contact-us{
+    margin-top: 100px;
+    min-height: 761px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 399px 740px;
+        column-gap: 100px;
+    }
+    &__descr{
+        &-title{
+            margin-bottom: 40px;
+        }
+        &-block{
+            color: var(--Dark-Gray, #2A2D34);
+            font-family: 'Montserrat',sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px; /* 150% */
+            strong{
+                color: var(--Dark-Gray, #2A2D34);
+                font-family: 'Montserrat',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 24px;
+            }
+            a{
+                color: var(--Dark-Gray, #2A2D34);
+                font-family: 'Montserrat',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                text-decoration-line: underline;
+            }
+        }
+       
+    }
+    &__form{
+        display: grid;
+        grid-template-rows: repeat(3,80px) 230px 51px;
+        gap: 40px;
+        width: 100%;
+        &-wrapper{
+            display: flex;
+            column-gap:40px;
+        }
+        label{
+            margin-bottom: 10px;
+        }
+        label,input{
+            color: var(--Gray-3, #484848);
+            font-family: 'Montserrat',sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+            span{
+                color: var(--Action-Orange, #EC633F);
+                font-family: 'Montserrat',sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 1.6px;
+                text-transform: uppercase;
+            }
+        }
+        
+        input, select, textarea, option{
+            height: 50px;
+            border-radius: 4px;
+            border-radius: 4px;
+            border: 1px solid var(--Light-Gray, #CCD2DD);
+            background: rgba(204, 210, 221, 0.10);
+            padding: 10px 23px;
+            color: var(--Medium-Gray, #5D636F);
+            font-family: 'Montserrat',sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        select{
+            appearance: none;
+        }
+        
+        textarea{
+            height: 200px;
+            resize: none;
+        }
+        &-name, &-phone, &-email, &-reason, &-message, &-btn{
+            display: flex;
+            flex-direction: column;
+        }
+        &-name, &-phone{
+            grid-row: 1/2;
+        }
+        &-email, &-reason, &-message, &-btn{
+            grid-column: 1/3;
+        }
+        &-reason{
+            position: relative;
+            span{
+                position: absolute;
+                top: 39px;
+                right: 17px;
+            }
+        }
+        
+        
+        
+    }
+
+
+}

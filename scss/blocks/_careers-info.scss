@@ -1,0 +1,25 @@
+.careers-info{
+    margin-top: 100px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        
+        column-gap: 62px;
+    }
+    &__descr{
+        margin-top: 100px;
+        margin-left: 105px;
+        width: 399px;
+        min-height:218px;
+        color: var(--Dark-Gray, #2A2D34);
+        font-family: 'Montserrat',sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        &-title{
+            margin-bottom: 40px;
+        }
+    }
+   
+}

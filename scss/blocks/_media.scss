@@ -1,11 +1,13 @@
 @media (max-width:1430px) {
-    .container{
+    .container {
         max-width: 960px;
     }
-    .header{
+
+    .header {
         flex-direction: column;
         align-items: flex-start;
-        &__list{
+
+        &__list {
             position: absolute;
             justify-content: flex-start;
             align-items: flex-start;
@@ -17,614 +19,796 @@
             left: -100%;
             gap: 40px;
             transition: 0.6s all;
-            ul{
+
+            ul {
                 flex-direction: column;
                 gap: 40px;
-                
+
             }
+
             min-height: 100vh;
             background-color:white;
             width: 100%;
             height: 100%;
         }
-        .hamburger{
+
+        .hamburger {
             display: flex;
         }
     }
-    .about{
-        &__triangles{
-            img{
+
+    .about {
+        &__triangles {
+            img {
                 max-height: 100%;
                 min-height: 900px;
             }
         }
-        &__danco{
+
+        &__danco {
             padding: 0 10px;
         }
-        &__circle{
+
+        &__circle {
             right: 50px;
             top: 86px;
         }
-        &__two-triangle{
-            img{
-                &:nth-child(2){
+
+        &__two-triangle {
+            img {
+                &:nth-child(2) {
                     width: 100%;
                 }
             }
-           
+
         }
     }
-    .roof-types{
+
+    .roof-types {
         padding-top: 140px;
-        &__wrapper{
+
+        &__wrapper {
             flex-wrap: wrap;
 
         }
-        &__item{
+
+        &__item {
             width: 35%;
             margin-bottom: 40px;
-            img{
+
+            img {
                 height: 200px;
             }
         }
     }
-    .footer{
+
+    .footer {
         padding-top: 0;
-        &__rectangle{
+
+        &__rectangle {
             top: 3px;
             left: -90px;
         }
-        &__list{
+
+        &__list {
             padding: 10px 24px 0 0;
         }
     }
 
-    .hero{
-        &__wrapper{
+    .hero {
+        &__wrapper {
             column-gap: 32px;
         }
-        &__descr{
+
+        &__descr {
             margin-bottom: 40px;
             margin-left: 45px;
         }
-        img{
+
+        img {
             max-height: 500px;
             width: 50%;
         }
     }
-    .sales{
+
+    .sales {
         padding: 52px 32px 32px 45px;
-        &__contact{
+
+        &__contact {
             width: 640px;
         }
     }
-    .team{
-        &__descr{
+
+    .team {
+        &__descr {
             flex-wrap: wrap;
-            &-title{
+
+            &-title {
                 margin-bottom: 10px;
                 width: 100%;
             }
         }
-        &__wrapper{
+
+        &__wrapper {
             justify-content: center;
         }
-        
+
     }
-    .safety-and-stats{
-        &__header-stats{
+
+    .safety-and-stats {
+        &__header-stats {
             flex-wrap: wrap;
         }
-       &__photo{
-        bottom: 40px;
-            img{
+
+        &__photo {
+            bottom: 40px;
+
+            img {
                 width: 90%;
             }
-       }
+        }
     }
-    .contact-us{
-        &__wrapper{
-            grid-template-columns: 299px 558px;   
+
+    .contact-us {
+        &__wrapper {
+            grid-template-columns: 299px 558px;
+        }
+    }
+
+    .careers-info {
+        &__wrapper {
+            column-gap: 32px;
+            align-items: flex-end;
+        }
+
+        &__descr {
+            margin-bottom: 40px;
+            margin-left: 45px;
+        }
+
+        img {
+            max-height: 500px;
+            width: 50%;
         }
     }
 }
 
-@media(max-width:992px){
-    .container{
+@media(max-width:992px) {
+    .container {
         max-width: 720px;
     }
-    .careers{
-        &__wrapper{
+
+    .careers {
+        &__wrapper {
             width: 100%;
         }
     }
-    .about{
+
+    .about {
         min-height: 1000px;
-        .container{
+
+        .container {
             width: 97%;
         }
+
         min-height: 1150px;
-        &__wrapper{
+
+        &__wrapper {
             align-content: center;
             flex-wrap: wrap;
         }
-        &__circle{
+
+        &__circle {
             right: 0;
         }
-        &__triangles{
-            img{
+
+        &__triangles {
+            img {
                 min-height: 660px;
             }
-            
+
         }
+
         &__triangle {
             &-blue {
                 &:nth-child(1) {
                     top: auto;
                     bottom: 115px;
                 }
-    
+
                 &:nth-child(2) {
                     top: auto;
                     bottom: 115px;
                 }
             }
-    
+
             &-white {
-               
+
                 &:nth-child(3) {
                     top: auto;
                     bottom: 0;
                 }
-    
+
                 &:nth-child(4) {
                     top: auto;
                     bottom: 0;
                 }
             }
-    
+
         }
-        &__two-triangle{
-            img{
-                &:nth-child(1){
+
+        &__two-triangle {
+            img {
+                &:nth-child(1) {
                     width: 50%;
                     height: auto;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     width: 100%;
                 }
             }
 
         }
-           
+
     }
-    .roof-types{
-        &__wrapper{
+
+    .roof-types {
+        &__wrapper {
             padding: 20px;
             justify-items: center;
-           
+
         }
-        &__item{
+
+        &__item {
             width: 40%;
-            &-photo{
+
+            &-photo {
                 height: auto;
             }
         }
-        
+
 
     }
-    .projects{
-        &__item{
-            &-front{
+
+    .projects {
+        &__item {
+            &-front {
                 width: 100%;
             }
-            &-back{
+
+            &-back {
                 width: 100%;
             }
         }
-        
+
     }
-    .roofing-services{
-        &__wrapper{
+
+    .roofing-services {
+        &__wrapper {
             flex-direction: column;
 
         }
-        &__slider, &__apply{
+
+        &__slider,
+        &__apply {
             width: 100%;
         }
     }
-    .footer{
+
+    .footer {
         min-height: 542px;
-        &__wrapper{
+
+        &__wrapper {
             margin-top: 20px;
             padding: 0;
             flex-wrap: wrap;
             align-content: flex-end;
         }
-        &__list{
+
+        &__list {
             width: 80%;
             flex-wrap: wrap;
             justify-content: flex-end;
         }
-        &__rectangle{
+
+        &__rectangle {
             top: 96px;
             left: -302px;
-            &-items{
+
+            &-items {
                 left: 24%;
                 top: 51%;
             }
         }
-        &__copyright{
+
+        &__copyright {
             padding-right: 115px;
         }
     }
-    .hero{
-        img{
+
+    .hero {
+        img {
             max-height: 300px;
         }
     }
-    .sales{
-        &__wrapper{
+
+    .sales {
+        &__wrapper {
             flex-wrap: wrap;
         }
-        &__contact{
+
+        &__contact {
             margin-bottom: 10px;
         }
     }
-    .team{
-        &__descr{
+
+    .team {
+        &__descr {
             padding: 0 50px;
         }
-        &__item{
+
+        &__item {
             width: 339px;
         }
     }
-    .safety-and-stats{
-        &__header{
+
+    .safety-and-stats {
+        &__header {
             flex-wrap: wrap;
-            &-stats{
+
+            &-stats {
                 padding-top: 0;
                 margin-bottom: 40px;
             }
-            &-block{
+
+            &-block {
                 padding-left: 0;
             }
 
         }
-        &__photo{
+
+        &__photo {
             position: static;
         }
-       
+
     }
-    .contact-us{
-        &__wrapper{
+
+    .contact-us {
+        &__wrapper {
             grid-template-columns: 100%;
         }
     }
+
+    .careers-info {
+        img {
+            max-height: 300px;
+        }
+    }
+    .job-openings{
+        &__item{
+            &-descr{
+                width: 480px;
+            }
+        }
+    }
+
 }
 
-@media(max-width: 768px){
-    .container{
+@media(max-width: 768px) {
+    .container {
         max-width: 540px;
     }
-    .text{
-        &-4xl{
+
+    .text {
+        &-4xl {
             font-size: 28px;
         }
     }
-    .about{
-        &__triangles{
-            img{
+
+    .about {
+        &__triangles {
+            img {
                 min-height: 495px;
                 top: -495px;
             }
         }
-        &__circle{
+
+        &__circle {
             width: 430px;
             height: 430px;
-            &-badge{
+
+            &-badge {
                 height: 80px;
-                    width: 80px;
-                svg{
+                width: 80px;
+
+                svg {
                     height: 80px;
                     width: 80px;
                 }
-                
-                    &:nth-child(1) {
-                        left: -30px;
-                    }
-        
-                    &:nth-child(2) {
-                        left: 30px;
-                    }
-        
-                    &:nth-child(3) {
-                        right: 30px;
-                    }
-        
-                    &:nth-child(4) {
-                        right: -30px;
-                    }
-        
-                    &:nth-child(5) {
-                        top: -30px;
-                    }
-               
+
+                &:nth-child(1) {
+                    left: -30px;
+                }
+
+                &:nth-child(2) {
+                    left: 30px;
+                }
+
+                &:nth-child(3) {
+                    right: 30px;
+                }
+
+                &:nth-child(4) {
+                    right: -30px;
+                }
+
+                &:nth-child(5) {
+                    top: -30px;
+                }
+
             }
-            &-descr{
+
+            &-descr {
                 left: 53%;
-                &-subtitle{
+
+                &-subtitle {
                     font-size: 13px;
                 }
-                &-title{
+
+                &-title {
                     font-size: 13px;
                 }
-                &-descr{
+
+                &-descr {
                     font-size: 13px;
                 }
             }
         }
-       
+
     }
-   
-    .roof-types{
-        &__item{
+
+    .roof-types {
+        &__item {
             width: 46%;
         }
     }
-    .footer{
+
+    .footer {
         padding: 0;
         min-height: 750px;
-        &__wrapper{
+
+        &__wrapper {
             position: static;
         }
-        &__list{
+
+        &__list {
             padding: 0 20px;
             width: 100%;
             gap: 35px;
             justify-content: left;
         }
-        &__rectangle{
+
+        &__rectangle {
             position: relative;
             top: 0;
             left: -90px;
         }
     }
-    .hero{
-        &__wrapper{
+
+    .hero {
+        &__wrapper {
             flex-wrap: wrap;
-            justify-content: flex-end;
+            justify-content: center;
         }
-        &__descr{
+
+        &__descr {
             margin: 100px 30px 40px 30px;
         }
     }
-    .sales{
+
+    .sales {
         padding: 52px 32px 32px 30px;
-        &__contact{
+
+        &__contact {
             width: 100%;
             margin-bottom: 60px;
-            
+
         }
     }
-    .team{
-        &__item{
+
+    .team {
+        &__item {
             width: 386px;
         }
     }
-    .quote{
-        &__main-quote{
+
+    .quote {
+        &__main-quote {
             width: 500px;
         }
     }
-    .safety-and-stats{
-        &__header{
+
+    .safety-and-stats {
+        &__header {
             padding: 0;
         }
-        &__photo{
-            img{
+
+        &__photo {
+            img {
                 width: 100%;
             }
         }
     }
-    .map{
-        img{
+
+    .map {
+        img {
             max-height: 110px;
         }
     }
 
-    .contact-us{
-       &__wrapper{
-            
+    .contact-us {
+        &__wrapper {
+
             justify-items: center;
-       }
-       &-form{
-            gap: 25px;  
-       }
+        }
+
+        &-form {
+            gap: 25px;
+        }
+    }
+
+    .careers-info {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__descr {
+            margin: 100px 30px 40px 30px;
+        }
+    }
+    .job-openings{
+        &__item{
+            &-descr{
+                width: 300px;
+            }
+        }
     }
 }
 
 @media (max-width:576px) {
 
-    .container{
+    .container {
         max-width: 100%;
     }
-    .text{
-        &-4xl{
+
+    .text {
+        &-4xl {
             font-size: 24px;
         }
-        &-5xl{
+
+        &-5xl {
             font-size: 32px;
         }
     }
-    .header{
+
+    .header {
         padding: 17px 13px;
-        svg{
+
+        svg {
             width: 130px;
             height: 70px;
         }
     }
-    .about{
+
+    .about {
         min-height: 900px;
-        .container{
+
+        .container {
             width: 100%;
         }
-        &__triangles{
-            img{
+
+        &__triangles {
+            img {
                 min-height: 310px;
                 top: -309px;
             }
         }
-        &__triangle{
-            &-blue{
-                &:nth-child(1){
+
+        &__triangle {
+            &-blue {
+                &:nth-child(1) {
                     bottom: 100px;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     bottom: 100px;
                 }
             }
         }
-        &__two-triangle{
-            img{
-                &:nth-child(1){
+
+        &__two-triangle {
+            img {
+                &:nth-child(1) {
                     width: 70%;
                     height: auto;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     width: 100%;
                 }
             }
 
         }
-        &__danco{
-            &-descr, &-ref{
+
+        &__danco {
+
+            &-descr,
+            &-ref {
                 font-size: 16px;
             }
         }
-        &__circle{
+
+        &__circle {
             top: 170px;
             height: 332px;
             width: 332px;
             font-size: 11px;
-            &-descr{
+
+            &-descr {
                 left: 57%;
-                &-subtitle, &-title, &-descr{
+
+                &-subtitle,
+                &-title,
+                &-descr {
                     font-size: 11px;
                 }
-               
-                &-descr{
+
+                &-descr {
                     width: 234px;
                 }
             }
-            &-badge{
+
+            &-badge {
                 height: 60px;
                 width: 60px;
-                svg{
+
+                svg {
                     height: 60px;
                     width: 60px;
-                    &:nth-child(3){
+
+                    &:nth-child(3) {
                         height: 100px;
                         width: 100px;
                     }
                 }
+
                 &:nth-child(1) {
                     left: 0;
                     top: 11%;
                 }
-    
+
                 &:nth-child(2) {
                     left: 17px;
                 }
-    
+
                 &:nth-child(3) {
                     right: 17px;
                 }
-    
+
                 &:nth-child(4) {
                     top: 11%;
                     right: 0px;
                 }
-    
+
                 &:nth-child(5) {
                     top: -30px;
                 }
-                
+
             }
         }
     }
-    .projects{
-        &__item{
+
+    .projects {
+        &__item {
             min-height: 600px;
-            &-front{
-                &-title{
+
+            &-front {
+                &-title {
                     font-size: 32px;
                 }
             }
         }
     }
-    .roof-types{
-        &__item{
+
+    .roof-types {
+        &__item {
             width: 100%;
         }
     }
-    .roofing-services{
-        &__apply{
+
+    .roofing-services {
+        &__apply {
             padding: 115px 20px 90px 20px;
-            &-descr{
+
+            &-descr {
                 width: 100%;
             }
         }
     }
-    .footer{
-        &__rectangle{
-            &-items{
+
+    .footer {
+        &__rectangle {
+            &-items {
                 left: 41%;
             }
         }
-        &__copyright{
+
+        &__copyright {
             padding-right: 10px;
         }
     }
-    .team{
-        &__descr{
+
+    .team {
+        &__descr {
             padding: 0 15px;
         }
-        &__wrapper{
+
+        &__wrapper {
             padding: 0 10px;
         }
     }
-    .quote{
-        &__main-quote{
+
+    .quote {
+        &__main-quote {
             width: 100%;
             font-size: 28px;
+            padding: 0 15px;
         }
     }
-    .safety-and-stats{
+
+    .safety-and-stats {
         padding: 35px;
     }
-    .join-the-team{
-        padding: 20px;
-        &__descr{
+
+    .join-the-team {
+        padding: 179px 20px;
+
+        &__descr {
             width: 100%;
         }
     }
-    .contact-us{
-        &__wrapper{
-             gap: 30px;
-             padding: 0 10px;
+
+    .contact-us {
+        &__wrapper {
+            gap: 30px;
+            padding: 0 10px;
         }
-        &__form{
-            grid-template-rows: repeat(4,80px) 230px 51px;
-            &-name{
+
+        &__form {
+            grid-template-rows: repeat(4, 80px) 230px 51px;
+
+            &-name {
                 grid-row: 1/2;
                 grid-column: 1/3;
             }
-            &-phone{
+
+            &-phone {
                 grid-row: 2/3;
                 grid-column: 1/3;
 
             }
         }
-     }
+    }
+    .job-openings{
+        padding: 100px 10px 60px 10px;
+        &__item{
+            flex-wrap: wrap;
+            &-descr{
+                width: 300px;
+                margin-bottom: 20px;
+            }
+        }
+    }
 }

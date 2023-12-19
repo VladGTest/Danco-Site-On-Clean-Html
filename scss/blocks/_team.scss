@@ -5,17 +5,16 @@
         display: flex;
         column-gap: 40px;
         margin-bottom: 50px;
+        padding-top: 9px;
         &-author{
             position: absolute;
             bottom: 0;
         }
         &-title {
             width: 377px;
-            padding-top: 9px;
         }
 
         &-descr {
-            padding-top: 9px;
             color: var(--Dark-Gray, #2A2D34);
             font-family: 'Montserrat', sans-serif;
             font-size: 16px;
@@ -39,7 +38,9 @@
         height: 425px;
         position: relative;
         overflow: hidden;
+        transition: 0.3s all;
         &:hover{
+            transition: 0.3s all;
             box-shadow: 0px 10px 20px 0px rgba(42, 45, 52, 0.20);
         }
         img {
@@ -51,9 +52,10 @@
 
         &-descr {
             position: absolute;
-            bottom: 0;
-            transition: 0.6s all;
             width: 100%;
+            transition: 0.3s all;
+            bottom: -100px;
+            
             &-title {
                 color: var(--White, #FFF);
                 font-family: 'Montserrat', sans-serif;
@@ -76,7 +78,6 @@
             }
 
             &-descr{
-                position: absolute;
                 background: url('../img/backgrounds/team/item_background.png') center center / cover no-repeat;
                 color: var(--White, #FFF);
                 font-family: 'Montserrat',sans-serif;
@@ -85,17 +86,18 @@
                 font-weight: 500;
                 line-height: normal;
                 padding: 16px 29px 38px 30px;
-                transition: 0.6s all;
+                transition: 0.3s all;
+                max-height: 100px;
                 &.active{
-                    position: relative;
-                    transition: 0.6s all;
-
+                    max-height: fit-content;
                 }
+
+                
             }
-            
-
+            &.active{
+                bottom: 0;
+                transition: 0.3s all;
+            }
         }
-
-
     }
 }

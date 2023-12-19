@@ -32,10 +32,10 @@
         &-stats {
             padding-top: 86px;
             display: flex;
-            column-gap: 48px;
-
             &-percents,
             &-earnings {
+                display: inline;
+                margin-right: 48px;
                 width: 165px;
                 -webkit-text-fill-color: white;
                 -webkit-text-stroke: 2px #264584;

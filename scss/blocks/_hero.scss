@@ -4,6 +4,7 @@
         display: flex;
         justify-content: space-between;
         column-gap:62px;
+        align-items:flex-end;
     }
     &__descr{
         margin-top: 100px;
@@ -24,9 +25,10 @@
         }
         &-stats{
             display: flex;
-            column-gap: 48px;
             flex-wrap: wrap;
             &-percents, &-earnings{	
+                margin-right: 48px;
+                display: inline;
                 width: 165px;
 	            -webkit-text-fill-color: white;
 	            -webkit-text-stroke: 2px #264584;

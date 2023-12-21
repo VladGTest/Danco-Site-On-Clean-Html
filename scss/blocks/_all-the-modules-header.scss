@@ -1,0 +1,38 @@
+.all-the-modules-header {
+    margin-top: 100px;
+    min-height: 400px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background: url('../img/backgrounds/projects-header/BG-IMG.png') center center / cover no-repeat;
+    &__title{
+        color: white;
+        font-family: 'Lato',sans-serif;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 185px 400px 0 0;
+        border-color: #fff transparent transparent transparent;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 0 185px 400px;
+        border-color: transparent transparent #CCD2DD transparent;
+    }
+}

@@ -18,6 +18,7 @@ html{
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 .container{
@@ -51,4 +52,9 @@ a{
 @import 'blocks/job-openings';
 @import 'blocks/projects-header';
 @import 'blocks/projects-list';
+@import 'blocks/all-the-modules-header';
+@import 'blocks/project-view';
+@import 'blocks/additional-info';
+@import 'blocks/projects-list-mini';
+@import 'blocks/projects-notation';
 @import 'blocks/media';

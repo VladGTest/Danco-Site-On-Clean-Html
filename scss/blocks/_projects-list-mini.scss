@@ -1,7 +1,7 @@
-.projects-list{
+.projects-list-mini{
     &__item{
         display: flex;
-        &:nth-child(even){
+        &:nth-child(odd){
             flex-direction: row-reverse;
         }
         &-descr{

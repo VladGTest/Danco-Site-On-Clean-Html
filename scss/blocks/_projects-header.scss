@@ -8,6 +8,9 @@
     justify-content: center;
     align-content: center;
     background: url('../img/backgrounds/projects-header/BG-IMG.png') center center / cover no-repeat;
+    &__services-landing{
+        background: url('../img/backgrounds/projects-header/BG-Services_Landing-IMG.png') center center / cover no-repeat;
+    }
     &__title{
         color: white;
         font-family: 'Lato',sans-serif;

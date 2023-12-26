@@ -5,13 +5,9 @@
             display: flex;
             column-gap: 100px;
             margin-bottom: 100px;
-            img{
-                object-fit: cover;
-                position: relative;
+            iframe{
+                width: 100%;
             }
-           svg{
-                position: absolute;
-           }
             &-info{
                 &-title{
                     margin-bottom: 20px;

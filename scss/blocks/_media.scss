@@ -202,10 +202,7 @@
     .project-preview{
         &__details{
             column-gap:50px;
-            img{
-                max-height: 500px;
-                width: 50%;
-            }
+           
         }
         
     }
@@ -477,6 +474,10 @@
         }
     }
     .project-preview{
+        &__details{
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
         &__gallery{
             justify-content: center;
             padding: 0;

@@ -476,7 +476,7 @@
     .project-preview{
         &__details{
             flex-wrap: wrap;
-            flex-direction: column-reverse;
+            flex-direction: column-reverse; 
         }
         &__gallery{
             justify-content: center;
@@ -596,6 +596,11 @@
         &__descr {
             margin: 100px 30px 40px 30px;
         }
+        img{
+            width: 100%;
+            max-height: none;
+        }
+       
     }
 
     .sales {
@@ -615,6 +620,8 @@
     }
 
     .quote {
+        padding-top: 100px;
+        min-height: 582px;
         &__main-quote {
             width: 500px;
         }
@@ -880,6 +887,7 @@
             }
         }
     }
+
 
     .projects {
         &__item {
